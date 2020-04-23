@@ -175,3 +175,17 @@ header {
   top: 7px;
   box-shadow: none;
 }
+
+footer {
+  border-top: 1px solid #eee;
+  padding-top: 30px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer img {
+  width: 125px;
+}
