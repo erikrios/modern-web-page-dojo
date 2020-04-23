@@ -79,3 +79,39 @@ a {
 .fa {
   margin-right: 5px;
 }
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgb(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgb(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  display: block;
+}
