@@ -1,0 +1,13 @@
+/* For Tablet */
+@media all and (max-width: 1000px) {
+
+}
+
+/* For Smartphone */
+.header-right {
+	display: none;
+}
+
+.menu-icon {
+	display: block;
+}
